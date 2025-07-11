@@ -47,43 +47,43 @@ export default function Home() {
           {/* Navigation Cards */}
           {/* PROJECTS card - robot's left (from its POV), 3D perspective */}
           <div 
-  className={`absolute top-3/4 left-8 z-20 cursor-pointer hover:scale-105 hover:shadow-2xl hover:bg-white/25 transition-all duration-500 ease-out ${
+  className={`absolute top-1/2 left-8 z-20 cursor-pointer hover:scale-105 hover:bg-white/25 transition-all duration-500 ease-out ${
     showCards ? 'opacity-100' : 'opacity-0'
   }`}
   style={{
     transform: 'perspective(1000px) rotateY(30deg)',
   }}
 >
-  <div className="bg-white/15 backdrop-blur-sm rounded-lg px-32 py-20 shadow-xl border border-gray-200/30">
-    <h3 className="text-gray-800 font-bold text-6xl tracking-wide">PROJECTS</h3>
+  <div className="bg-white/15 backdrop-blur-sm rounded-lg px-28 py-16 border border-gray-200/30">
+    <h3 className="text-gray-800 font-bold text-5xl tracking-wide">PROJECTS</h3>
   </div>
 </div>
 
 {/* ABOUT card - far right, upper */}
 <div 
-  className={`absolute top-1/4 right-16 z-20 cursor-pointer hover:scale-105 hover:shadow-2xl hover:bg-white/25 transition-all duration-500 ease-out ${
+  className={`absolute top-1/4 right-16 z-20 cursor-pointer hover:scale-105 hover:bg-white/25 transition-all duration-500 ease-out ${
     showCards ? 'opacity-100' : 'opacity-0'
   }`}
   style={{
     transform: 'perspective(1000px) rotateY(-30deg)',
   }}
 >
-  <div className="bg-white/15 backdrop-blur-sm rounded-lg px-32 py-20 shadow-xl border border-gray-200/30">
-    <h3 className="text-gray-800 font-bold text-6xl tracking-wide">ABOUT</h3>
+  <div className="bg-white/15 backdrop-blur-sm rounded-lg px-28 py-16 border border-gray-200/30">
+    <h3 className="text-gray-800 font-bold text-5xl tracking-wide">ABOUT</h3>
   </div>
 </div>
 
 {/* CONTACT card - far right, lower */}
 <div 
-  className={`absolute top-2/3 right-16 z-20 cursor-pointer hover:scale-105 hover:shadow-2xl hover:bg-white/25 transition-all duration-500 ease-out ${
+  className={`absolute top-2/3 right-16 z-20 cursor-pointer hover:scale-105 hover:bg-white/25 transition-all duration-500 ease-out ${
     showCards ? 'opacity-100' : 'opacity-0'
   }`}
   style={{
     transform: 'perspective(1000px) rotateY(-30deg)',
   }}
 >
-  <div className="bg-white/15 backdrop-blur-sm rounded-lg px-32 py-20 shadow-xl border border-gray-200/30">
-    <h3 className="text-gray-800 font-bold text-6xl tracking-wide">CONTACT</h3>
+  <div className="bg-white/15 backdrop-blur-sm rounded-lg px-28 py-16 border border-gray-200/30">
+    <h3 className="text-gray-800 font-bold text-5xl tracking-wide">CONTACT</h3>
   </div>
 </div>
 
