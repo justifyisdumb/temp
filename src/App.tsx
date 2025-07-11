@@ -47,7 +47,7 @@ export default function Home() {
           {/* Navigation Cards */}
           {/* PROJECTS card - robot's left (from its POV), 3D perspective */}
           <div 
-  className={`absolute top-3/4 left-8 z-20 cursor-pointer hover:scale-105 hover:shadow-2xl hover:bg-white/25 transition-all duration-500 ease-out ${
+  className={`absolute top-4/5 left-8 z-20 cursor-pointer hover:scale-105 hover:shadow-2xl hover:bg-white/25 transition-all duration-500 ease-out ${
     showCards ? 'opacity-100' : 'opacity-0'
   }`}
   style={{
