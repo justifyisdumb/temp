@@ -17,7 +17,7 @@ export default function AboutCube({ position }: { position: [number, number, num
     <group position={position}>
       <mesh ref={meshRef} rotation={[0.3, 0.4, 0]}>
         <boxGeometry args={[2, 2, 2]} />
-        <meshStandardMaterial color="#ffffff" opacity={0.15} transparent />
+        <meshStandardMaterial color="#e5e7eb" />
         
         {/* Front face */}
         <Text

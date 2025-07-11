@@ -17,7 +17,7 @@ export default function ProjectsTetrahedron({ position }: { position: [number, n
     <group position={position}>
       <mesh ref={meshRef} rotation={[0.2, 0.3, 0]}>
         <tetrahedronGeometry args={[1.5]} />
-        <meshStandardMaterial color="#ffffff" opacity={0.15} transparent />
+        <meshStandardMaterial color="#e5e7eb" />
         
         {/* Front face */}
         <Text
