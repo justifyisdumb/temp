@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { Text, useDrag } from '@react-three/drei';
+import { Text } from '@react-three/drei';
+import { useDrag } from '@use-gesture/react';
 import * as THREE from 'three';
 
 export default function ContactCubes({ position }: { position: [number, number, number] }) {

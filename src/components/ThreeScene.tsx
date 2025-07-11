@@ -1,5 +1,6 @@
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useDrag } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
+import { useDrag } from '@use-gesture/react';
 import AboutCube from './AboutCube';
 import ProjectsTetrahedron from './ProjectsTetrahedron';
 import ContactCubes from './ContactCubes';
