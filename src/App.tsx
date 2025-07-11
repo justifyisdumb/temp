@@ -13,7 +13,7 @@ export default function Home() {
     // Show cards 2 seconds after loading completes
     const cardTimer = setTimeout(() => {
       setShowCards(true);
-    }, 2500);
+    }, 3500);
     return () => {
       clearTimeout(timer);
       clearTimeout(cardTimer);
